@@ -1,0 +1,76 @@
+.connectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .connectCard {
+    background-color: #f2f2f2;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .connectTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .qrcodeBox {
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .codeLabel {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .codeDisplay {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 6px;
+    border: 2px solid #333;
+  }
+  
+  .regenerateBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1d27f0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .regenerateBtn:hover {
+    background-color: #1420c9;
+  }
+  
+  .timer {
+    font-size: 16px;
+    color: #e63946;
+    margin-top: 10px;
+  }
+  
+  .waiting {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0 0;
+  }
+  

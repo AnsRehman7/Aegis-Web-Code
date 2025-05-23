@@ -1,0 +1,116 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.addContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00d09e;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.addButton:hover {
+  background-color: #c0392b;
+}
+
+.addButton:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.urlList {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.urlItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.urlItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.urlItem:last-child {
+  border-bottom: none;
+}
+
+.urlText {
+  word-break: break-all;
+}
+
+.removeButton {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.removeButton:hover {
+  background-color: #2980b9;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.empty {
+  color: #7f8c8d;
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  color: #e74c3c;
+  background-color: #fdecea;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
